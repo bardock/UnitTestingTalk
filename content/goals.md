@@ -1,4 +1,10 @@
+name: goals-header
+layout: true
+
 # Goals of Test Automation
+
+---
+template: goals-header
 
 ## Why Test
 
@@ -6,8 +12,14 @@
 * Since test code is optional (not what the customer is paying for), there is a strong temptation to give up testing when the tests becomes difficult or expensive to maintain. 
 
 ---
+template: goals-header
+name: goals-economics-header
+layout: true
 
 ## Economics
+
+---
+template: goals-economics-header
 
 * Of course there is will always be a cost to building and maintaining an automated test suite. 
 * it is worth spending more to have the ability to change the software later
@@ -17,11 +29,16 @@
 * As well as the remediation cost of the defects that would have gone undetected
 
 ---
+template: goals-economics-header
 
 ### An automated unit test project with a good Return of Inversion
 ![](http://xunitpatterns.com/Economics-Good.gif)
 
 ---
+template: goals-economics-header
 
 ### An automated unit test project with a poor Return of Inversion
 ![](http://xunitpatterns.com/Economics-Bad.gif)
+
+---
+layout: true
