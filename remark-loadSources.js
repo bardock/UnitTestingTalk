@@ -8,8 +8,8 @@ function loadSources(container, urls) {
 	for (var i = 0; i < urls.length; i++) {
 		xmlhttp.open('GET', urls[i], false);
 		xmlhttp.send();
-
-		container.innerHTML += "\n" + xmlhttp.responseText;
+		
+		container.innerHTML += xmlhttp.responseText.trim();
 		
 		if (i + 1 < urls.length) {
 		  container.innerHTML += "\n---\n"
