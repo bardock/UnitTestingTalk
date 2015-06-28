@@ -1,3 +1,7 @@
+/* Loads external files into specified container element.
+ * It's based on this issue: https://github.com/gnab/remark/issues/150
+ * Pass source as string and macros are not working when using slides separator (---) inside a file.
+ */
 function loadSources(container, urls) {
 	var xmlhttp = new XMLHttpRequest();
 
