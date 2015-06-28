@@ -1,6 +1,6 @@
 # Unit Testing
 
-## Table of Contents
+## Agenda
 
 * [Goals of Test Automation](./goals.md)
 * [Philosophy](./philosophy.md)

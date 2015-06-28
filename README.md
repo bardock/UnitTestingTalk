@@ -11,7 +11,7 @@ Written in [markdown](http://daringfireball.net/projects/markdown/syntax) (slide
 
 ## Contents
 
-If you want to navigate the content without running the slideshow you can go directly to the [Table of Contents](./content/table-of-contents.md)
+If you want to navigate the content without running the slideshow you can go directly to the [Agenda](./content/agenda.md)
 
 ## What's next?
 
