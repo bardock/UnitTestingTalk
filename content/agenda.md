@@ -1,11 +1,12 @@
-# Unit Testing
+Unit Testing
+============
 
-## Agenda
+### Agenda
 
 * [Goals of Test Automation](./goals.md)
 * [Philosophy](./philosophy.md)
-* Principles 
-* Strategy
-* Test Doubles
-* Code Organization
-* Readability
+* [Principles](./principles.md)
+* [Strategy](./strategy.md)
+* [Test Doubles](./test-doubles.md)
+* [Code Organization](./code-organization.md)
+* [Readability](./readability.md)
