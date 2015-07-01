@@ -8,8 +8,12 @@ template: goals-header
 
 ## Why Test
 
-* Writing good test code is hard and maintaining obtuse test code is even harder
-* Since test code is optional (not what the customer is paying for), there is a strong temptation to give up testing when the tests becomes difficult or expensive to maintain. 
+### Challenges
+* Writing good test code **is hard** and maintaining bad test code is even harder
+* Since test code is **not what the customer is paying for**, there is a strong temptation to give up testing when the tests becomes difficult or expensive to maintain
+
+### Motivation
+* Adherence to the **goals** (things to achieve) and **principles** (ways to achieve them) will result in automated **tests that are easier to write, read, and maintain**
 
 ---
 template: goals-header
@@ -39,6 +43,62 @@ template: goals-economics-header
 
 ### An automated unit test project with a poor Return of Inversion
 ![](http://xunitpatterns.com/Economics-Bad.gif)
+
+---
+template: goals-header
+name: goals-goals-header
+layout: true
+
+## Goals
+
+---
+template: goals-goals-header
+
+### Improve quality
+
+* **Tests as Specification**
+	* Understand requirements
+* **Preventing Bugs**
+* **Defect Localization**
+	* Why some expected behavior isn't working
+
+### Understand the system under test (SUT)
+
+* **Tests as Documentation**
+	* Tell us what should be the result for a given condition
+	* Executable
+
+---
+template: goals-goals-header
+
+### Reduce (and not introduce) risk
+
+* **Tests as Safety Net**
+	* Make changes to code with less risk
+* **Do No Harm**
+	* Keep Test Logic out of Production Code
+	* Believing that some code is reliable because it has been well tested when in fact it has not
+
+### Tests easy to run
+
+* **Fully Automated Test**
+* **Self-Checking Test**
+* **Repeatable Test**
+
+---
+template: goals-goals-header
+
+### Tests easy to write and maintain
+
+* **Simple Tests**
+* **Expressive Tests**
+* **Separation of Concerns**
+
+### Tests that require minimal maintenance as the system evolves
+
+* **Robust Test**
+	* Verify One Condition per Test
+	* Test Utility Methods
 
 ---
 layout: true
