@@ -1,0 +1,8 @@
+.tddimage {
+	display: block;
+	text-align: right;
+}
+.tddimage  img {
+	position: relative;
+	top: -170px;
+}

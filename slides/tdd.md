@@ -7,21 +7,23 @@ layout: true
 template: tdd-header
 
 
-*TDD is very much an **acquired habit**. Once one has "gotten the hang of it", writing code in any other way can seem just as strange as TDD seems to those who have never done*
+*TDD is very much an **acquired habit**.* 
+
+*Once one has "gotten the hang of it", writing code in any other way can seem just as strange as TDD seems to those who have never done*
 
 ---
 template: tdd-header
 
 ## Traditional way of writing tests
 
-![](./img/tdd-traditional.png)
+.tddimage[![](./img/tdd-traditional.png)]
 
 ---
 template: tdd-header
 
 ## TDD way
 
-![](./img/tdd.png)
+.tddimage[![](./img/tdd.png)]
 
 ---
 template: tdd-header
