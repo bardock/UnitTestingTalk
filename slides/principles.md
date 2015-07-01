@@ -5,21 +5,26 @@ layout: true
 ---
 template: principles-header
 
-Qualities we'd like to see in a test
+Principles are qualities we'd like to see in a test.
 
 What makes these different from the goals is that there is more debate about them.
 
 ### Design for Testability
 
-* Testing requirements are considered as the code is designed 
+* Testing requirements are considered as the code is designed
+
+### Communicate Intent
+
+* Tests easier to understand
+* Call Test Utility Methods with Intent Revealing Names
+
+---
+template: principles-header 
 
 ### Keep Tests Independent
 
-* An Independent Test can be run by itself
-* It sets up its own Fresh Fixture to put the SUT into a state that lets it verify the behavior it is testing
-
----
-template: principles-header
+* Tests should not depend on any other tests
+* A test should set up its own Fresh Fixture to put the SUT into a state that lets it verify the behavior it is testing
 
 ### Isolate the SUT
 
@@ -29,12 +34,12 @@ template: principles-header
 
 * We should structure our tests so that we have as few tests as possible depending on a particular piece of functionality
 
+---
+template: principles-header
+
 ### Verify One Condition per Test
 
 * There is a strong temptation to reuse the end state of one test condition as the starting state of the next by combining them into a single test
-
----
-template: principles-header
 
 ### Test Concerns Separately
 
