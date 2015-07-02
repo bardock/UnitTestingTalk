@@ -6,14 +6,16 @@ layout: true
 ---
 template: result-verification-header
 
-* one
-* two
+## State Verification
 
----
-template: result-verification-header
+* We exercise the SUT and then we examine:
+	* the post-exercise **state** of the SUT
+	* anything **returned** by the SUT
 
-* one
-* two
+## Behavior Verification
+
+* We have to catch the SUT "in the act" as it generates **indirect outputs to the objects it depends on**
+* We use **Test Doubles**
 
 ---
 layout: true

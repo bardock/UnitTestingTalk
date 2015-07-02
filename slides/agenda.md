@@ -8,6 +8,7 @@ Unit Testing
 * [Principles](./principles.md)
 * [Test-Driven Development](./tdd.md)
 * [Strategy](./strategy.md)
+* [Result Verification](./result-verification.md)
 * [Test Doubles](./test-doubles.md)
 * [Code Organization](./code-organization.md)
 * [Readability](./readability.md)
