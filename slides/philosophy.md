@@ -10,10 +10,7 @@ template: philosophy-header
 
 ### Test First
  
-* The system is **inherently testable**.
-* **Only enough code is written** to make the tests pass.
-* Code tends to be more minimalist.
-* Substitute dependencies with Test Doubles is enhanced.
+* TDD
 
 ### Test Last
 
@@ -75,14 +72,14 @@ template: philosophy-header
 
 ### State verification
 
-* Put the SUT into specific state.
-* Exercise it.
-* Verify that it is in the expected state.
+* Exercise the SUT and then examine:
+	* the post-exercise **state** of the SUT
+	* anything **returned** by the SUT
 
 ### Behavior verification
 
 * Specify the calls that the SUT makes to its dependencies.
-* Copious usage of Mock Objects or Test Spys.
+* Copious usage of Test Doubles.
 * Provides better isolation of each test unit at a possible cost of more difficult refactoring.
 
 ---

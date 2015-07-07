@@ -13,7 +13,7 @@ template: goals-header
 * Since test code is **not what the customer is paying for**, there is a strong temptation to give up testing when the tests becomes difficult or expensive to maintain
 
 ### Motivation
-* Adherence to the **goals** (things to achieve) and **principles** (ways to achieve them) will result in automated **tests that are easier to write, read, and maintain**
+* Adherence to the **goals** (things to achieve) and **philosophies** (ways to achieve them) will result in automated **tests that are easier to write, read, and maintain**
 
 ---
 template: goals-header
