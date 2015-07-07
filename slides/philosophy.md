@@ -107,7 +107,6 @@ template: philosophy-header
 
 ## Our Philosophy
 * Write the **tests first**!
-* Tests **are examples**!
 * **List all the customer tests cases** and then **write tests one at a time**.
 * **Outside-In Development** helps clarify what tests are needed for the next layer inwards.
 * **Primarily do State Verification**, and **Behavior Verification when needed** to get good code coverage.
