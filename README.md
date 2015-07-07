@@ -5,7 +5,7 @@ Written in [markdown](http://daringfireball.net/projects/markdown/syntax) (slide
 
 ## Run the slideshow
 
-* Online: [http://bardock.github.io/UnitTestingTalk/](http://bardock.github.io/UnitTestingTalk/)
+* Online: [http://bardock.github.io/UnitTestingTalk/](http://bardock.github.io/UnitTestingTalk/slides)
 * Locally:
 	1. Clone this repo
 	2. [Run a web server](https://gist.github.com/willurd/5720255) in your working directory (a web.config file is provided if you use IIS)
@@ -13,7 +13,7 @@ Written in [markdown](http://daringfireball.net/projects/markdown/syntax) (slide
 
 ## Contents
 
-If you want to navigate the content without running the slideshow you can go directly to the [Agenda](./content/agenda.md)
+If you want to navigate the content without running the slideshow you can go directly to the [Agenda](./slides/agenda.md)
 
 ## What's next?
 

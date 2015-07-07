@@ -25,24 +25,34 @@ layout: true
 ---
 template: goals-economics-header
 
-* Of course there is will always be a cost to building and maintaining an automated test suite. 
-* it is worth spending more to have the ability to change the software later
-(The argument that the quality improvement is worth the extra cost often doesn't go very far either in these days of "just good enough" software quality).
-* Our goal should be to make the decision to do test automation a "no-brainer" by ensuring that it does not increase the cost of software development. 
-* This means that the additional cost of building and maintaining automated tests must be offset by savings through reduced manual unit testing and debugging/troubleshooting 
+### The invesment
+
+* There is will always be a cost to building and maintaining an automated test suite. 
+* It is worth spending more to have the ability to change the software later.
+* Test automation should be a "no-brainer".
+
+### The benefit
+
+* The additional cost of building and maintaining automated tests must be offset by savings through reduced manual unit testing and debugging/troubleshooting
 * As well as the remediation cost of the defects that would have gone undetected
 
 ---
 template: goals-economics-header
 
-### An automated unit test project with a good Return of Inversion
-![](http://xunitpatterns.com/Economics-Good.gif)
+### A good Return of Investment
+
+.center[![](./img/goals-economics-good.gif)]
+
+The cost of learning the new technology and practices takes additional effort but once we get past the "hump", we should settle down to a steady stage where the added cost (the part above the line) is at least fully offset by the savings (the part below the line).
 
 ---
 template: goals-economics-header
 
-### An automated unit test project with a poor Return of Inversion
-![](http://xunitpatterns.com/Economics-Bad.gif)
+### A poor Return of Investment
+
+.center[![](./img/goals-economics-bad.gif)]
+
+If tests are hard to write, hard to understand and require frequent, expensive maintenance, the total cost of software development (the heights of the vertical arrows) goes up. This results in the increase in overall effort which now exceeds the original effort without test automation.
 
 ---
 template: goals-header
