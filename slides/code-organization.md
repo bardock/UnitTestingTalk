@@ -10,7 +10,7 @@ template: code-organization-header
 * Unit tests
 * Integration tests 
 
-###Mapping tests to projects
+### Mapping tests to projects
 * One test project per project under test
 
 ---

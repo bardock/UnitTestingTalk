@@ -1,18 +1,111 @@
+name: philosophy-header
+layout: true
+
 # Philosophy
 
-* Test First or Last?
-* Tests or Examples? / Specification By Example?
-* Test-by-Test or All-At-Once?
-* Outside-In or Inside-Out?
-* State or Behavior Verification?
-* Fixture Design Up Front or Test-by-Test?
+---
+template: philosophy-header
+
+## Test First or Last?
+
+### Test First
+ 
+* TDD
+
+### Test Last
+
+* **Retrofit unit tests is hard** whether or not it is easy to do.
+* Cannot write tests **without modifying production code**.
 
 ---
+template: philosophy-header
+
+## Test-by-Test or All-At-Once?
+
+### Test-by-Test
+
+* TDD process is "write a test" then "write some code".
+* Incremental development at its finest grain.
+* **Cannot focus** completely on one of both tasks (test or code).
+
+### All-At-Once
+
+Identify all the tests needed **before** starting any coding
+
+* Think like a **client or tester**.
+* Avoid being sucked in **solution mode** too early.
+* Write a **single test body** at a time.
+
+---
+template: philosophy-header
+name: philosophy-outside-in-inside-out-header
+layout: true
+
+## Outside-In or Inside-Out?
+
+---
+template: philosophy-outside-in-inside-out-header
+
+### Design Outside-In and code Inside-Out
+
+* Avoids the "dependency problem".
+* Requires anticipating the needs of the outer software for the inner software.
+* Avoids the needs for Test Stubs or Mock Objects in many of the tests.
+
+.center[![](./img/philosophy-inside-out.gif)] 
+
+---
+template: philosophy-outside-in-inside-out-header
+
+### Design and code Outside-In
+
+* Forces us to deal with the "dependency problem".
+* Allows us to layer our SUT and use Test Doubles sparingly.
+* Helps clarify what tests are needed for the next layer inwards.
+
+.center[![](./img/philosophy-outside-in.gif)] 
+
+---
+template: philosophy-header
+
+## State or Behavior Verification?
+
+### State verification
+
+* Exercise the SUT and then examine:
+	* the post-exercise **state** of the SUT
+	* anything **returned** by the SUT
+
+### Behavior verification
+
+* Specify the calls that the SUT makes to its dependencies.
+* Copious usage of Test Doubles.
+* Provides better isolation of each test unit at a possible cost of more difficult refactoring.
+
+---
+template: philosophy-header
+
+## Fixture Design Up Front or Test-by-Test?
+
+### Fixture Design Up Front 
+
+* Define a "test bed" with a variety of test data.
+* Use a **Standard Fixture**, as a **Fresh Fixture** or as a **Shared Fixture**.
+* May lead to slow tests.
+
+### Test-by-Test
+
+* Custom design a **Minimal Fixture** for each test.
+* This approach is better implemented using a **Fresh Fixture**.
+* Better **tests as documentation**.
+
+---
+template: philosophy-header
+
 ## Our Philosophy
-* Write the tests first!
-* Tests are examples!
-* List all the customer tests cases and then write tests one at a time
-* Outside-In Development helps clarify what tests are needed for the next layer inwards
-* Primarily State Verification (page X) but Behavior Verification (page X) when needed to get good code coverage
-* Use the smallest and simplest fixture possible for each test
-Provide a base fixture setup with conventions used in most tests
+* Write the **tests first**!
+* **List all the customer tests cases** and then **write tests one at a time**.
+* **Outside-In Development** helps clarify what tests are needed for the next layer inwards.
+* **Primarily do State Verification**, and **Behavior Verification when needed** to get good code coverage.
+* Use the **smallest and simplest fixture** possible for each test.
+Provide a **base fixture setup with conventions** used in most tests.

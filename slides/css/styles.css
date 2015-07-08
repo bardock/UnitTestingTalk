@@ -6,3 +6,12 @@
 	position: relative;
 	top: -170px;
 }
+
+.readabilityimage {
+	display: block;
+	text-align: right;
+}
+.readabilityimage  img {
+	position: relative;
+	top: -90px;
+}
