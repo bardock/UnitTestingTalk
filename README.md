@@ -17,7 +17,7 @@ If you want to navigate the content without running the slideshow you can go dir
 
 ## What's next?
 
-* Bardock Framework
+* [Bardock.UnitTesting](https://github.com/bardock/Bardock.UnitTesting) - A framework for unit testing (AutoFixture, Effort and more)
 
 ## Bibliography
 
